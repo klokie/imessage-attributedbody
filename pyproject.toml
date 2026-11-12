@@ -1,0 +1,26 @@
+[project]
+name = "imessage-attributedbody"
+version = "1.0.0"
+description = "Decode body text out of iMessage/SMS attributedBody blobs (macOS chat.db) — zero dependencies"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Daniel Grossfeld" }]
+keywords = ["imessage", "sms", "chat.db", "attributedBody", "typedstream", "nsarchiver", "macos", "messages"]
+classifiers = [
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: MacOS",
+  "Programming Language :: Python :: 3",
+  "Topic :: Communications :: Chat",
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/klokie/imessage-attributedbody"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["attributedbody"]
